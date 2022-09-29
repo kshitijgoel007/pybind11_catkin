@@ -2,6 +2,25 @@
 Changelog for package pybind11_catkin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.6.1 (2022-09-29)
+------------------
+* Upgrade to 2.6.1
+* Update version - cf. `#15 <https://github.com/kshitijgoel007/pybind11_catkin/issues/15>`_
+* Increase CMake version to 3.4 for cfg_extras
+* Fix installation of required files and include of required tools for macro
+* Fix build (tested in install workspace)
+* WIP: update to pybind11 2.6.0
+* Add note that pybind11-master is broken as of July 31, 2020 for Melodic
+* Update email
+* Upgrade minimum required CMake version to 3.0.2. Add note on latest master being broken
+* 2.5.0
+* Update CHANGELOG
+* Upgrade pybind11 to 2.5.0
+* Upgrade Travis to include Noetic, reduce jobs
+* Update package.xml to format v3
+* Bump CMake version to avoid CMP0048
+* Contributors: Henry Schreiner, Wolfgang Merkt
+
 2.5.0 (2020-05-24)
 ------------------
 * Update to v2.5.0, add compatibility with ROS Noetic (20.04) (`#12 <https://github.com/ipab-slmc/pybind11_catkin/issues/12>`_)
